@@ -1,0 +1,6 @@
+@mixin default-font($font-size, $bg-color, $text-space) {
+    font-family: $font-1;
+    background-color: $bg-color;
+    font-size: $font-size;
+    letter-spacing: $text-space;
+}

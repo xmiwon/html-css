@@ -1,0 +1,35 @@
+* {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+html, body {
+    @include default-font(16px, rgb(221, 221, 221), 3px);
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-box {
+    background-color: rgb(194, 203, 226);
+    padding: 50px;
+    margin: 2rem;
+    box-shadow:0px 0px $_10;
+}
+
+button {
+    width: 100%;
+    padding: $_10;
+    margin-top: $_10;
+    margin-bottom: $_10;
+    background-color: #0046a1;
+    color: white;
+    border:none;
+    font-weight: bold;
+}
+
+input {
+    padding: $_10;
+    border: 2px solid rgb(184, 184, 184);
+}
